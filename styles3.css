@@ -1,0 +1,109 @@
+:root {
+    background: linear-gradient(90deg, rgb(34, 138, 156), rgb(38, 38, 51));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(2, 2, 2);
+    opacity: 80%;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-size: large;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #9bcf20;
+}
+
+a:hover {
+    color: #d67200;
+}
+
+#Projects {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.proyectos div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Initially hidden */
+    transform: translateX(-100%); /* Slide in from left */
+    transition: all 0.5s ease-in-out;
+}
+
+.proyectos div:nth-child(even) {
+    transform: translateX(100%); /* Slide in from right for even items */
+}
+
+.proyectos div img {
+    width: 100%;
+    height: auto;
+}
+
+.proyectos div.show {
+    opacity: 1;
+    transform: translateX(0); /* Reset transform for visible items */
+}
+
+/* Keyframes for sliding animations */
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
