@@ -1,0 +1,49 @@
+*{
+    background-color: black;
+    color: antiquewhite;
+}
+
+#navbar{
+    font-size: large;
+    font-weight: bold;
+    z-index: 1;
+    position: fixed;
+    padding: 0;
+    margin: 1;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: flex;
+    float: left;
+    width: 250px;
+    margin-left: auto;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow: hidden;
+    
+
+}
+
+header{
+    font-size: x-large;
+    padding: 10px;
+    }
+
+code{
+    background-color: antiquewhite;
+    color: black;
+    padding: 2.7px;
+    border-radius: 10%;
+}
+ 
+@media screen and (max-width: 350px) {
+    #nav-bar{
+      display: none;
+
+    }
+  }
+
+main{
+    margin-left: 250px;
+}

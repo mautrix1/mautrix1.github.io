@@ -1,5 +1,5 @@
 :root {
-    background: linear-gradient(90deg, rgb(34, 138, 156), rgb(38, 38, 51));
+    background: linear-gradient(90deg, rgb(141, 153, 155), rgb(38, 38, 51));
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(0, 0, 0);
 }
@@ -47,7 +47,7 @@ nav ul li {
 
 a:link, a:visited {
     text-decoration: none;
-    color: #9bcf20;
+    color: #af3baf;
 }
 
 a:hover {
