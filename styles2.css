@@ -1,5 +1,5 @@
 :root{
-    background: linear-gradient(90deg, rgb(34, 138, 156),rgb(38, 38, 51));
+    background: linear-gradient(90deg, rgb(74, 80, 82),rgb(38, 38, 51));
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(0, 0, 0);
 }
@@ -61,7 +61,7 @@ section h1 {
     font-weight: bolder;
     font-size: 80px;
     opacity: 80%;
-    color: rgba(123, 173, 42, 0.973);
+    color: rgba(138, 185, 62, 0.973);
     margin-top: -12vh;
    }
 
@@ -120,12 +120,17 @@ h2{
 
 }
 
+.icons{
+    padding-top: 35dvh;
+    padding-left: 7dvh;
+    transform: scale(1.5);
 
+}
 
 
 a:link{
     text-decoration: none;
-    color: #9bcf20;
+    color: #f8ffe6;
 }
 
 a:visited{
@@ -134,5 +139,19 @@ a:visited{
 }
 
 a:hover{
-    color: #d67200;
+    color: #00c8d6;
+}
+
+.form{
+
+    margin-left: 800px;
+    padding-top: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.submitbutton{
+    padding: 15px;
+    margin-left: 70px;
+    background-color: #00c8d6;
 }

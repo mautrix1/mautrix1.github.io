@@ -1,5 +1,5 @@
 :root{
-    background: linear-gradient(90deg, rgb(34, 138, 156),rgb(38, 38, 51));
+    background: linear-gradient(90deg, rgb(159, 191, 197),rgb(38, 38, 51));
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(0, 0, 0);
 }
@@ -61,7 +61,7 @@ section h1 {
     font-weight: bolder;
     font-size: 80px;
     opacity: 80%;
-    color: rgba(123, 173, 42, 0.973);
+    color: rgba(202, 119, 23, 0.973);
     margin-top: -12vh;
    }
 
